@@ -20,7 +20,7 @@ Resources:
             Statement:
               - Effect: Allow
                 Action: 's3:*'
-                Resource: '*'
+                Resource: 'arn:aws:s3:::cf-templates-13ygugxvf1nra-ap-south-1'
   RootInstanceProfile:
     Type: 'AWS::IAM::InstanceProfile'
     Properties:
